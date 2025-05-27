@@ -1,6 +1,6 @@
 # test_q6_multiplication_table.py
 import unittest
-from q6_multiplication_table import multiplication_table
+from python.problems.q6_multiplication_table import multiplication_table
 
 class TestMultiples(unittest.TestCase):
     def test_table(self):

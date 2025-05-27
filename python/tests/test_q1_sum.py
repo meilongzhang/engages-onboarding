@@ -1,6 +1,6 @@
 # test_q1_sum.py
 import unittest
-from q1_sum import sum_two_numbers
+from python.problems.q1_sum import sum_two_numbers
 
 class TestSum(unittest.TestCase):
     def test_basic(self):

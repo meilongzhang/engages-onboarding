@@ -1,6 +1,6 @@
 # test_q4_max_list.py
 import unittest
-from q4_max_list import find_max
+from python.problems.q4_max_list import find_max
 
 class TestFindMax(unittest.TestCase):
     def test_max(self):

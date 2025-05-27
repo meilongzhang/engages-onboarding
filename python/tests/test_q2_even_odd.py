@@ -1,6 +1,6 @@
 # test_q2_even_odd.py
 import unittest
-from q2_even_odd import is_even
+from python.problems.q2_even_odd import is_even
 
 class TestEvenOdd(unittest.TestCase):
     def test_even_odd(self):

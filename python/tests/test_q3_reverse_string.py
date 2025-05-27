@@ -1,6 +1,6 @@
 # test_q3_reverse_string.py
 import unittest
-from q3_reverse_string import reverse_string
+from python.problems.q3_reverse_string import reverse_string
 
 class TestReverse(unittest.TestCase):
     def test_reverse(self):

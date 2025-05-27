@@ -1,6 +1,6 @@
 # test_q5_count_vowels.py
 import unittest
-from q5_count_vowels import count_vowels
+from python.problems.q5_count_vowels import count_vowels
 
 class TestCountVowels(unittest.TestCase):
     def test_count(self):
