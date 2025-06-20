@@ -16,7 +16,7 @@ if __name__ == '__main__':
     loader = unittest.TestLoader()
     suites = []
 
-    for subfolder in ['python', 'ml', 'deep_learning']:
+    for subfolder in ['python', 'ml', 'dl']:
         test_dir = os.path.join(project_root, subfolder, 'tests')
         if os.path.isdir(test_dir):
             suite = loader.discover(start_dir=test_dir, top_level_dir=project_root)
