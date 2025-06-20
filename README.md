@@ -125,6 +125,29 @@ python -m unittest python/tests/test_q1_sum.py
 
 ---
 
+## 📤 Submitting Your Work
+After cloning this repository, please create your own private GitHub repository to store your work.
+
+Create a new private repository on your GitHub account (e.g., yourname-onboarding).
+
+Remove the existing remote from this repo:
+
+```
+git remote remove origin
+```
+Add your own GitHub repo as the new remote:
+```
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+```
+Add, commit and push your code:
+```
+git add .
+git commit -m "new submission"
+git push -u origin main
+```
+
+Then, share your new repo with me.
+
 ## 🙌 Good Luck!
 
 This assessment is designed to help you build confidence in programming and ML. Don’t worry if you don’t know something yet — read, experiment, and ask questions when needed!
