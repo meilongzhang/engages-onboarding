@@ -45,8 +45,8 @@ cd engages-onboarding
 ### 2. (Optional) Create a Virtual Environment
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate      # On Windows: venv\Scripts\activate
+conda create -n onboarding python=3.10
+conda activate onboarding
 ```
 
 ### 3. Install Dependencies
